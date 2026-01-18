@@ -28,5 +28,13 @@ function getHumanChoice() {
 }
 console.log(getHumanChoice());
 
+// Logic to Play one round
 
 
+function playRound(humanChoice, computerChoice) {
+    humanChoice = humanChoice.toLowerCase();
+
+    if (humanChoice === computerChoice) {
+        console.log("It's a tie");
+    }
+}
