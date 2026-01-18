@@ -1,5 +1,10 @@
 console.log("Hello World!");
 
+// Storing Score variables
+
+let humanScore = 0;
+let computerScore = 0;
+
  // Computer logic for the game using Math.random
 
 function getComputerChoice() {
@@ -22,3 +27,6 @@ function getHumanChoice() {
     return choice;
 }
 console.log(getHumanChoice());
+
+
+
